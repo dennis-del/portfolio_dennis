@@ -1,4 +1,4 @@
-import { faAngular, faBootstrap, faCss3, faFigma, faHtml5, faJs, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faBootstrap, faCss3, faFigma, faGithub, faHtml5, faJs, faNodeJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { motion } from 'framer-motion'
 import React from 'react'
@@ -52,7 +52,10 @@ function Technologies() {
                 <motion.div initial="initial" animate="animate" variants={iconVarients(3.5)} className='p-4'>
                     <FontAwesomeIcon icon={faPython} className='text-7xl text-violet-400' />
                 </motion.div>
-                <motion.div initial="initial" animate="animate" variants={iconVarients(8)} className='p-4'>
+                <motion.div initial="initial" animate="animate" variants={iconVarients(2)} className='p-4'>
+                    <FontAwesomeIcon icon={faGithub} style={{color: "#fff"}} className='text-7xl text-violet-400' />
+                </motion.div>
+                <motion.div initial="initial" animate="animate" variants={iconVarients(4.5)} className='p-4'>
                     <FontAwesomeIcon icon={faAngular} className='text-7xl text-red-400' />
                 </motion.div>
             </motion.div>
