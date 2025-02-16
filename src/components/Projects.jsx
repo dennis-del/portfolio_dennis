@@ -45,15 +45,16 @@ function Projects() {
                 </div>
                 <div className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1 }} className='w-full lg:w-1/4'>
-                        <a href="https://food-web-nine-sooty.vercel.app/" target='_blank'><img src={burger} alt="image" width={450} height={450} className='mb-6 rounded' /></a>
+                        <a href="https://nursing-myown.vercel.app/" target='_blank'><img src="https://5.imimg.com/data5/SELLER/Default/2021/5/MQ/MM/YJ/103386446/8e9d6085-108c-431b-a6f9-f95195cdca18.jpg" alt="image" width={450} height={450} className='mb-6 rounded' /></a>
                     </motion.div>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
-                        <h3 className='mb-2 font-semibold text-2xl pl-10'>Restaurent Website</h3>
+                        <h3 className='mb-2 font-semibold text-2xl pl-10'>Nursing Agency Website</h3>
                         <p className='mb-4 text-stone-400 pt-5 pl-10'>
-                            A restaurant website built with HTML and CSS provides a clean, user-friendly interface showcasing the menu, restaurant details, and contact information. With responsive design and simple navigation, it offers an inviting experience across devices, helping customers explore the restaurant's offerings and easily make reservations or find directions.
+                            A nursing agency website built with React and Tailwind CSS provides a clean, user-friendly interface showcasing the company's services, team members, and contact information. With responsive design and simple navigation, helping customers find the nursing services they need.
                         </p>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>HTML</span>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>CSS</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>React</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Tailwind CSS</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Framer Motion</span>
                     </motion.div>
                 </div>
                 <div className='mb-8 flex flex-wrap lg:justify-center'>
