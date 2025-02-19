@@ -25,7 +25,6 @@ I’ve been working on a professional educational app for a client named Skill C
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>React Native</span>
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>MongoDB</span>
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Node.js</span>
-                        <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Express</span>
                     </motion.div>
                 </div>
                 <div className='mb-8 flex flex-wrap lg:justify-center'>
@@ -37,7 +36,6 @@ I’ve been working on a professional educational app for a client named Skill C
                         <p className='mb-4 text-stone-400'>Developed and maintained web applications using Mearn stack.Designed and implemented RESTful APIs for
                             data communication.Collaborated with cross-functional teams to deliver high quality software products on schedule.</p>
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Javascript</span>
-                        <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Bootstrap</span>
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Vercel</span>
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Github</span>
                         <span className='mr-2 mt-4 rounded bg-stone-700 px-2 py-1 text-sm font-medium text-stone-300'>Render</span>
