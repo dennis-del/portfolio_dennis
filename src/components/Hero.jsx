@@ -1,6 +1,6 @@
 import React from 'react'
 import myphoto from '../assets/myphoto.jpeg'
-import My_Resume from '../assets/My_Resume.pdf'
+/* import My_Resume from '../public/My_Resume.pdf' */
 import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet'
 
@@ -43,7 +43,7 @@ function Hero() {
                             With a strong grasp of frontend technologies like React, Bootstrap, and Tailwind CSS, I build responsive, intuitive interfaces. On the backend, I’m experienced with both MySQL and MongoDB, allowing me to work across different database systems.
                             I’m passionate about problem-solving and always eager to learn new technologies, delivering scalable, efficient solutions while embracing new challenges.
                         </motion.p>
-                        <motion.a variants={childVariants} href="./src/assets/My_Resume.pdf" target='_blank' download={My_Resume.pdf} className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>Resume</motion.a>
+                        <motion.a variants={childVariants} href="/My_Resume.pdf" target='_blank' download="My_Resume.pdf" className='bg-white rounded-full p-4 text-sm text-stone-800 mb-10'>Resume</motion.a>
                     </motion.div>
                 </div>
             </div>
