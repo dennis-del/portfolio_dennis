@@ -8,8 +8,8 @@ function Contact() {
     <div className='border-t border-stone-700 pb-20'>
       <Helmet>
         <title>Dennis James Portfolio</title>
-        <meta name="description" content="Dennis James Portfolio" />
-        <meta name="keywords" content="Dennis James Portfolio" />
+        <meta name="description" content="Dennis James" />
+        <meta name="keywords" content="Dennis James" />
       </Helmet>
       <motion.h2 whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -100 }} transition={{ duration: 0.5 }} className='my-10 text-center text-4xl'>Contact Info</motion.h2>
       <div className='text-center tracking-tighter'>

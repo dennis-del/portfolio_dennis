@@ -10,8 +10,8 @@ function Navbar() {
     <nav className='flex items-center justify-between py-6'>
       <Helmet>
         <title>Dennis James Portfolio</title>
-        <meta name="description" content="Dennis James Portfolio" />
-        <meta name="keywords" content="Dennis James Portfolio" />
+        <meta name="description" content="Dennis James" />
+        <meta name="keywords" content="Dennis James" />
       </Helmet>
       <div className='flex flex-shrink-0 items-center'>
         <a href="/" aria-label='Home'>

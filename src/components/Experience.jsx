@@ -9,8 +9,8 @@ function Experience() {
         <div className='pb-4'>
             <Helmet>
                 <title>Dennis James Portfolio</title>
-                <meta name="description" content="Dennis James Portfolio" />
-                <meta name="keywords" content="Dennis James Portfolio" />
+                <meta name="description" content="Dennis James" />
+                <meta name="keywords" content="Dennis James" />
             </Helmet>
             <motion.h2 whileInView={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: -100 }} transition={{ duration: 0.5 }} className='my-20 text-center text-4xl'>Experience</motion.h2>
             <div>

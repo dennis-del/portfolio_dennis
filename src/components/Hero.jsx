@@ -26,8 +26,8 @@ function Hero() {
         <div className='pb-4 lg:mb-36'>
             <Helmet>
                 <title>Dennis James Portfolio</title>
-                <meta name="description" content="Dennis James Portfolio" />
-                <meta name="keywords" content="Dennis James Portfolio" />
+                <meta name="description" content="Dennis James" />
+                <meta name="keywords" content="Dennis James" />
             </Helmet>
             <div className='flex flex-wrap lg:flex-row-reverse'>
                 <div className='w-full lg:w-1/2'>

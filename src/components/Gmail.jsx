@@ -45,8 +45,8 @@ function Gmail() {
         <div className="pb-16">
             <Helmet>
                 <title>Dennis James Portfolio</title>
-                <meta name="description" content="Dennis James Portfolio" />
-                <meta name="keywords" content="Dennis James Portfolio" />
+                <meta name="description" content="Dennis James" />
+                <meta name="keywords" content="Dennis James" />
             </Helmet>
             <motion.h2
                 whileInView={{ opacity: 1, y: 0 }}

@@ -18,8 +18,8 @@ function App() {
     <>
       <Helmet>
         <title>Dennis James Portfolio</title>
-        <meta name="description" content="Dennis James Portfolio" />
-        <meta name="keywords" content="Dennis James Portfolio" />
+        <meta name="description" content="Dennis James" />
+        <meta name="keywords" content="Dennis James" />
       </Helmet>
       <div className='overflow-x-hidden text-stone-300 antialiased'>
         <div className='fixed inset-0 -z-10'>
