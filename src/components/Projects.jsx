@@ -16,17 +16,16 @@ function Projects() {
             <div>
                 <div className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1 }} className='w-full lg:w-1/4'>
-                        <a href="https://clones-wheat.vercel.app/" target='_blank'><img src="https://www.cnet.com/a/img/resize/b3d77540535b980192421ac4d1aa5687dc1d1eaa/hub/2022/10/03/10a0d96d-1b0b-4f8f-ba3b-b893d21edb65/prime-video.jpg?auto=webp&fit=crop&height=675&width=1200" alt="image" width={450} height={450} className='mb-6 rounded' /></a>
+                        <a href="https://pg-website-qouu.vercel.app/" target='_blank'><img src="https://media.istockphoto.com/id/674909778/photo/happy-backpacker-traveller-stay-in-high-quality-hotel.jpg?s=612x612&w=0&k=20&c=Kg2nCRRLhKzH6gIVfhr3ZsSwxURttU3uXZEAEiV_AkA=" alt="image" width={450} height={450} className='mb-6 rounded' /></a>
                     </motion.div>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
                         <h3 className='mb-2 font-semibold text-2xl pl-10'>React-Clone Website</h3>
                         <p className='mb-4 text-stone-400 pt-5 pl-10'>
-                            It replicates core features of a modern web application, showcasing functionality like dynamic routing, user authentication, and responsive UI. It includes role-based access control, enabling admins to manage content, while regular users can interact with the site’s features.
+                        A modern and responsive PG accommodation website crafted to offer users a seamless browsing experience with intuitive navigation, clean design, and essential features for easy access to room details, contact info, and services.
                         </p>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>HTML</span>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>CSS</span>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Bootstrap</span>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>React</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>Next Js</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Tailwind CSS</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Typescript</span>
                     </motion.div>
                 </div>
                 <div className='mb-8 flex flex-wrap lg:justify-center'>
