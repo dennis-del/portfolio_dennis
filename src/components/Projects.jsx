@@ -19,11 +19,11 @@ function Projects() {
                         <a href="https://pg-website-qouu.vercel.app/" target='_blank'><img src="https://media.istockphoto.com/id/674909778/photo/happy-backpacker-traveller-stay-in-high-quality-hotel.jpg?s=612x612&w=0&k=20&c=Kg2nCRRLhKzH6gIVfhr3ZsSwxURttU3uXZEAEiV_AkA=" alt="image" width={450} height={450} className='mb-6 rounded' /></a>
                     </motion.div>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
-                        <h3 className='mb-2 font-semibold text-2xl pl-10'>React-Clone Website</h3>
+                        <h3 className='mb-2 font-semibold text-2xl pl-10'>PG Website</h3>
                         <p className='mb-4 text-stone-400 pt-5 pl-10'>
                         A modern and responsive PG accommodation website crafted to offer users a seamless browsing experience with intuitive navigation, clean design, and essential features for easy access to room details, contact info, and services.
                         </p>
-                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>Next Js</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>Next JS</span>
                         <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Tailwind CSS</span>
                         <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>Typescript</span>
                     </motion.div>
