@@ -16,6 +16,21 @@ function Projects() {
             <div>
                 <div className='mb-8 flex flex-wrap lg:justify-center'>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1 }} className='w-full lg:w-1/4'>
+                        <a href="https://d-map-ou4z-git-main-dennis-projects-c37824cc.vercel.app/" target='_blank'><img src="https://developers.google.com/static/maps/documentation/tile/images/example-basemap-tile.png" alt="image" width={450} height={450} className='mb-6 rounded' /></a>
+                    </motion.div>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
+                        <h3 className='mb-2 font-semibold text-2xl pl-10'>D Map</h3>
+                        <p className='mb-4 text-stone-400 pt-5 pl-10'>
+                        This project uses Leaflet.js with OpenStreetMap for interactive maps, OSRM and Leaflet Routing Machine for route visualization, Geolocation API for user location, LocalStorage for saving data, and Nominatim for geocoding.
+
+                        </p>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300 ml-10'>Leaflet.js</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>OSRM</span>
+                        <span className='mr-2 rounded bg-stone-700 p-2 text-sm font-medium text-stone-300'>OpenStreetMap</span>
+                    </motion.div>
+                </div>
+                <div className='mb-8 flex flex-wrap lg:justify-center'>
+                    <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -100 }} transition={{ duration: 1 }} className='w-full lg:w-1/4'>
                         <a href="https://pg-website-qouu.vercel.app/" target='_blank'><img src="https://media.istockphoto.com/id/674909778/photo/happy-backpacker-traveller-stay-in-high-quality-hotel.jpg?s=612x612&w=0&k=20&c=Kg2nCRRLhKzH6gIVfhr3ZsSwxURttU3uXZEAEiV_AkA=" alt="image" width={450} height={450} className='mb-6 rounded' /></a>
                     </motion.div>
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 100 }} transition={{ duration: 1 }} className='w-full max-w-xl lg:w-3/4'>
