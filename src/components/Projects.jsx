@@ -1,5 +1,4 @@
 import React from 'react'
-import burger from '../assets/burger.jpg'
 import { motion } from 'framer-motion'
 import { Helmet } from 'react-helmet'
 

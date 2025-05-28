@@ -9,6 +9,7 @@ import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Technologies from './components/Technologies'
 import { Toaster } from 'react-hot-toast';
+import Contribution from './components/Contribution'
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Hero/>
           <Education/>
           <Experience/>
+          <Contribution />
           <Technologies/>
           <Projects/>
           <Gmail/>
